@@ -1,0 +1,14 @@
+{
+  "framework": "tkinter_matplotlib",
+  "features": {
+    "architecture_diagrams": true,
+    "real_time_visualizations": true,
+    "interactive_demos": true,
+    "paper_presentation": true
+  },
+  "components": {
+    "diagram_renderer": "matplotlib",
+    "web_interface": "streamlit",
+    "desktop_gui": "tkinter"
+  }
+}

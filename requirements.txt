@@ -1,0 +1,376 @@
+﻿# LiveCodeBench Pro - Python Dependencies
+# Core AI and ML frameworks
+torch>=2.0.0
+transformers>=4.30.0
+numpy>=1.24.0
+scipy>=1.10.0
+
+# CrewAI Framework
+crewai>=0.28.0
+crewai-tools>=0.1.0
+langchain>=0.1.0
+langchain-community>=0.0.20
+
+# Intel Optimizations
+openvino>=2023.0.0
+intel-extension-for-pytorch>=2.0.0
+
+# GUI Framework
+tkinter  # Built-in with Python
+matplotlib>=3.7.0
+plotly>=5.14.0
+dash>=2.10.0
+streamlit>=1.22.0
+
+# Data Processing
+pandas>=2.0.0
+json5>=0.9.0
+pyyaml>=6.0
+toml>=0.10.0
+
+# Visualization
+seaborn>=0.12.0
+pillow>=9.5.0
+opencv-python>=4.7.0
+
+# Web Framework (for Streamlit interface)
+fastapi>=0.95.0
+uvicorn>=0.21.0
+websockets>=11.0.0
+
+# Database and Storage
+sqlite3  # Built-in with Python
+sqlalchemy>=2.0.0
+redis>=4.5.0
+
+# Networking and APIs
+requests>=2.30.0
+aiohttp>=3.8.0
+httpx>=0.24.0
+
+# Development and Testing
+pytest>=7.3.0
+pytest-asyncio>=0.21.0
+black>=23.3.0
+flake8>=6.0.0
+mypy>=1.3.0
+
+# Logging and Monitoring
+loguru>=0.7.0
+prometheus-client>=0.16.0
+psutil>=5.9.0
+
+# Configuration Management
+python-dotenv>=1.0.0
+configparser>=5.3.0
+click>=8.1.0
+
+# Security
+cryptography>=40.0.0
+pyjwt>=2.6.0
+
+# Performance Profiling
+py-spy>=0.3.0
+memory-profiler>=0.60.0
+line-profiler>=4.0.0
+
+# Documentation
+sphinx>=6.2.0
+sphinx-rtd-theme>=1.2.0
+mkdocs>=1.4.0
+
+# Containerization Support
+docker>=6.1.0
+
+# Version Control Integration
+gitpython>=3.1.0
+
+# File Processing
+pathlib  # Built-in with Python
+glob2>=0.7
+watchdog>=3.0.0
+
+# Async Support
+asyncio  # Built-in with Python
+aiofiles>=23.1.0
+
+# Data Validation
+pydantic>=1.10.0
+marshmallow>=3.19.0
+
+# Time and Date Handling
+python-dateutil>=2.8.0
+pytz>=2023.3
+
+# System Integration
+subprocess  # Built-in with Python
+threading  # Built-in with Python
+multiprocessing  # Built-in with Python
+
+# Optional: Jupyter Support (for development)
+jupyter>=1.0.0
+ipykernel>=6.22.0
+ipywidgets>=8.0.0
+
+# Optional: Advanced Visualization
+bokeh>=3.1.0
+altair>=5.0.0
+
+# Optional: Audio/Video Processing (for demos)
+moviepy>=1.0.0
+pydub>=0.25.0
+
+# Optional: Advanced NLP
+spacy>=3.5.0
+nltk>=3.8.0
+
+# Optional: Computer Vision
+scikit-image>=0.20.0
+
+# Optional: Advanced Analytics
+scikit-learn>=1.2.0
+xgboost>=1.7.0
+
+# Optional: Cloud Integration
+boto3>=1.26.0
+azure-storage-blob>=12.16.0
+google-cloud-storage>=2.9.0
+
+# Optional: Message Queues
+celery>=5.2.0
+kombu>=5.2.0
+
+# Optional: Caching
+diskcache>=5.6.0
+cachetools>=5.3.0
+
+# Platform-specific optimizations
+# Windows
+pywin32>=306; sys_platform == "win32"
+wmi>=1.5.1; sys_platform == "win32"
+
+# Linux
+psutil>=5.9.0; sys_platform == "linux"
+
+# macOS
+psutil>=5.9.0; sys_platform == "darwin"
+
+# Development Tools
+pre-commit>=3.3.0
+bandit>=1.7.0
+safety>=2.3.0
+
+# API Documentation
+swagger-ui-bundle>=0.0.9
+redoc>=2.0.0
+
+# Internationalization
+babel>=2.12.0
+gettext>=0.1.0
+
+# Email Support (for notifications)
+smtplib  # Built-in with Python
+email-validator>=2.0.0
+
+# Advanced Logging
+structlog>=23.1.0
+colorlog>=6.7.0
+
+# Performance Monitoring
+py-cpuinfo>=9.0.0
+gpustat>=1.1.0
+
+# Code Quality
+pylint>=2.17.0
+autopep8>=2.0.0
+isort>=5.12.0
+
+# Type Checking
+types-requests>=2.30.0
+types-PyYAML>=6.0.0
+types-setuptools>=67.8.0
+
+# Build Tools
+setuptools>=67.8.0
+wheel>=0.40.0
+build>=0.10.0
+
+# Package Management
+pip-tools>=6.13.0
+pipdeptree>=2.7.0
+
+# Environment Management
+virtualenv>=20.23.0
+conda>=23.3.0
+
+# Cross-platform Support
+pathlib2>=2.3.0
+six>=1.16.0
+
+# Backup and Recovery
+zipfile  # Built-in with Python
+tarfile  # Built-in with Python
+shutil  # Built-in with Python
+
+# Network Utilities
+socket  # Built-in with Python
+urllib3>=2.0.0
+certifi>=2023.5.0
+
+# System Information
+platform  # Built-in with Python
+os  # Built-in with Python
+sys  # Built-in with Python
+
+# Random and Crypto
+random  # Built-in with Python
+secrets  # Built-in with Python
+hashlib  # Built-in with Python
+
+# Regular Expressions
+re  # Built-in with Python
+
+# Collections and Data Structures
+collections  # Built-in with Python
+itertools  # Built-in with Python
+functools  # Built-in with Python
+
+# Math and Statistics
+math  # Built-in with Python
+statistics  # Built-in with Python
+decimal  # Built-in with Python
+
+# Text Processing
+string  # Built-in with Python
+textwrap  # Built-in with Python
+
+# File I/O
+io  # Built-in with Python
+csv  # Built-in with Python
+pickle  # Built-in with Python
+
+# Compression
+gzip  # Built-in with Python
+bz2  # Built-in with Python
+lzma  # Built-in with Python
+
+# Encoding
+base64  # Built-in with Python
+codecs  # Built-in with Python
+
+# Testing Utilities
+unittest  # Built-in with Python
+mock  # Built-in with Python (unittest.mock)
+
+# Debugging
+pdb  # Built-in with Python
+traceback  # Built-in with Python
+warnings  # Built-in with Python
+
+# Profiling
+cProfile  # Built-in with Python
+profile  # Built-in with Python
+timeit  # Built-in with Python
+
+# Garbage Collection
+gc  # Built-in with Python
+weakref  # Built-in with Python
+
+# Context Management
+contextlib  # Built-in with Python
+
+# Abstract Base Classes
+abc  # Built-in with Python
+
+# Enum Support
+enum  # Built-in with Python
+
+# Data Classes
+dataclasses  # Built-in with Python
+
+# Type Hints
+typing  # Built-in with Python
+typing_extensions>=4.5.0
+
+# Argument Parsing
+argparse  # Built-in with Python
+
+# Configuration Files
+configparser  # Built-in with Python
+
+# Temporary Files
+tempfile  # Built-in with Python
+
+# Signal Handling
+signal  # Built-in with Python
+
+# Process Management
+subprocess  # Built-in with Python
+
+# Thread and Process Pools
+concurrent.futures  # Built-in with Python
+
+# Queue Management
+queue  # Built-in with Python
+
+# Socket Programming
+socketserver  # Built-in with Python
+
+# HTTP Servers
+http.server  # Built-in with Python
+
+# URL Parsing
+urllib.parse  # Built-in with Python
+
+# HTML Processing
+html  # Built-in with Python
+html.parser  # Built-in with Python
+
+# XML Processing
+xml  # Built-in with Python
+xml.etree.ElementTree  # Built-in with Python
+
+# Email Processing
+email  # Built-in with Python
+
+# MIME Types
+mimetypes  # Built-in with Python
+
+# Locale Support
+locale  # Built-in with Python
+
+# Calendar Functions
+calendar  # Built-in with Python
+
+# UUID Generation
+uuid  # Built-in with Python
+
+# Copy Operations
+copy  # Built-in with Python
+
+# Operator Functions
+operator  # Built-in with Python
+
+# Keyword Arguments
+keyword  # Built-in with Python
+
+# Inspection
+inspect  # Built-in with Python
+
+# Import Utilities
+importlib  # Built-in with Python
+
+# Package Resources
+pkgutil  # Built-in with Python
+
+# Site Configuration
+site  # Built-in with Python
+
+# System-specific Parameters
+sysconfig  # Built-in with Python
+
+# Distutils
+distutils  # Built-in with Python (deprecated but still used)
+
+# Setuptools Entry Points
+pkg_resources  # Part of setuptools
