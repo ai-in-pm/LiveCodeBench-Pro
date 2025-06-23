@@ -7,6 +7,10 @@
 [![Intel Optimized](https://img.shields.io/badge/Intel-Optimized-blue.svg)](https://www.intel.com/)
 [![CrewAI](https://img.shields.io/badge/CrewAI-Framework-green.svg)](https://github.com/joaomdmoura/crewAI)
 
+![LiveCodeBench-image1](https://github.com/user-attachments/assets/3b38b9a7-4e1a-4651-b4d6-d7469a7db1b5)
+![LiveCodeBench-image2](https://github.com/user-attachments/assets/ca4c213a-ca8d-4f93-97e1-fd18a1e351e5)
+![LiveCodeBench-image3](https://github.com/user-attachments/assets/86b48712-1719-412b-bce6-519f20367bc4)
+
 ## 🚀 Overview
 
 LiveCodeBench Pro is a cutting-edge architecture demonstration platform that combines the power of Intel's optimized BERT model with CrewAI's multi-agent framework to deliver interactive, real-time architecture presentations and demonstrations.
